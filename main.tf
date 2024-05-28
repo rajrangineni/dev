@@ -1,6 +1,7 @@
 node {
     def mvnHome
     stage('clone') { 
+    git branch: 'main', url: 'https://github.com/rajrangineni/dev.git'
         dir('resource.tf'){
            }
     }
